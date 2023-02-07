@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- menu aside  -->
+        <div class="menu-side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listen</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommanded</h4>
+            </div>
+            <div class="menu-song">
+                <li class="classItem">
+                    <span>01</span>
+                    <img src="/img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="1"></i>
+                </li>
+                <li class="classItem">
+                    <span>02</span>
+                    <img src="/img/Justin_Bieber_-_Justice.png" alt="">
+                    <h5>Ghost <br>
+                        <div class="subtitle">Justin Bieber</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="2"></i>
+                </li>
+                <li class="classItem">
+                    <span>03</span>
+                    <img src="/img/The_Weeknd_-_After_Hours.png" alt="">
+                    <h5>After Hours <br>
+                        <div class="subtitle">The Weeknd</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="3"></i>
+                </li>
+                <li class="classItem">
+                    <span>04</span>
+                    <img src="/img/Illuminate_by_Shawn_Mendes.png" alt="">
+                    <h5>Treat You Better  <br>
+                        <div class="subtitle">Shawn Mendes</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="4"></i>
+                </li>
+                <li class="classItem">
+                    <span>05</span>
+                    <img src="/img/Charlie_Puth_Voicenotes.png" alt="">
+                    <h5>Attention <br>
+                        <div class="subtitle">Charlie Puth</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="5"></i>
+                </li>
+                <li class="classItem">
+                    <span>06</span>
+                    <img src="/img/G-Eazy_-_The_Beautiful_&_Damned.png" alt="">
+                    <h5>Him & I<br>
+                        <div class="subtitle">G-Eazy</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="6"></i>
+                </li>
+                <li class="classItem">
+                    <span>07</span>
+                    <img src="https://static-cse.canva.com/blob/978199/1600w-8iSVF3m00jk.jpg" alt="">
+                    <h5>On my way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="6"></i>
+                </li>
+                <li class="classItem">
+                    <span>08</span>
+                    <img src="https://static-cse.canva.com/blob/978199/1600w-8iSVF3m00jk.jpg" alt="">
+                    <h5>On my way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi bi-play-circle-fill playListPlay" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+        <!-- song side section -->
+        <div class="song-side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="searchBar">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div>
+                <div class="user">
+                    <img src="/img/profile_picture.png" alt="">
+                </div>
+            </nav>
+            <!-- Content Section -->
+            <div class="content">
+                <h1>Alan Walker</h1>
+                <p>Alan Walker is a British-born Norwegian music producer. He is best known for
+                    his song "Faded." The song got good ratings worldwide and became a platinum single in 14 countries.
+                </p>
+                <div class="button">
+                    <button>Play</button>
+                    <button>Follow</button>
+                </div>
+                <div class="popular-song">
+                    <div class="head">
+                        <h4>Popular Song</h4>
+                        <div class="arrow-btn">
+                            <i class="bi bi-arrow-left"></i>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="popular-list">
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="1"></i>
+                                <img src="/img/2.jpg" alt="">
+                            </div>
+                            <h5>Faded <br>
+                                <div class="subtitle">Alan Walker</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="2"></i>
+                                <img src="/img/The_Weeknd_-_After_Hours.png" alt="">
+                            </div>
+                            <h5>Save Your Tears <br>
+                                <div class="subtitle">The Weeknd</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="3"></i>
+                                <img src="/img/Charlie_Puth_Voicenotes.png" alt="">
+                            </div>
+                            <h5>Attention <br>
+                                <div class="subtitle">Charlie Puth</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="4"></i>
+                                <img src="/img/dvlm.jpeg" alt="">
+                            </div>
+                            <h5>The Hum <br>
+                                <div class="subtitle">DV&LM</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="5"></i>
+                                <img src="/img/Justin_Bieber_-_Justice.png" alt="">
+                            </div>
+                            <h5>Ghost <br>
+                                <div class="subtitle">Justin Bieber</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="6"></i>
+                                <img src="/img/G-Eazy_-_The_Beautiful_&_Damned.png" alt="">
+                            </div>
+                            <h5>Him & I <br>
+                                <div class="subtitle">G-Eazy</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="7"></i>
+                                <img src="/img/BTS.jpg" alt="">
+                            </div>
+                            <h5>Dynamite <br>
+                                <div class="subtitle">BTS</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="8"></i>
+                                <img src="/img/Illuminate_by_Shawn_Mendes.png" alt="">
+                            </div>
+                            <h5>Treat You Better <br>
+                                <div class="subtitle">Shawn Mendes</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="9"></i>
+                                <img src="https://static-cse.canva.com/blob/978199/1600w-8iSVF3m00jk.jpg" alt="">
+                            </div>
+                            <h5>On my way <br>
+                                <div class="subtitle">Alan Walker</div>
+                            </h5>
+                        </li>
+                        <li class="classItem">
+                            <div class="play-img">
+                                <i class="bi bi-play-circle-fill playListPlay" id="10"></i>
+                                <img src="https://static-cse.canva.com/blob/978199/1600w-8iSVF3m00jk.jpg" alt="">
+                            </div>
+                            <h5>On my way <br>
+                                <div class="subtitle">Alan Walker</div>
+                            </h5>
+                        </li>
+                    </div>
+                </div>
+                <!-- Artist Section -->
+                <div class="popularArtist">
+                    <div class="head">
+                        <h4>Popular Artist</h4>
+                        <div class="arrow-btn">
+                            <i class="bi bi-arrow-left"></i>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                    <!-- artist List -->
+                    <div class="artistList">
+                        <li>
+                            <img src="/img/beiber-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/the-weeknd-artist-profile.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/coldplay-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/charlie-profile.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/geazy-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/ariana-grande-profile.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/Bruno_Mars-profile.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/cardi-b-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/shawn-mendes-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/glass-animal-profile.jpeg" alt="">
+                        </li>
+                        <li>
+                            <img src="/img/bts-profile.jpeg" alt="">
+                        </li>           
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- player section -->
+        <div class="master-play">
+            <!-- wave animation -->
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <!-- Album Art and Title -->
+            <img src="/AlbumArt/1.jpg" alt="" id="poster-master-play">
+            <h5 id="title">Psycho <div class="subtitle">Post Malone</div>
+            </h5>
+            <!-- Play Icons -->
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">Next</i>
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+                <i class="bi bi-cloud-download" id="download-music"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <!-- Seek Bar -->
+            <div class="seekBar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">5:31</span>
+            <div class="volume">
+                <i class="bi bi-volume-down-fill" id="vol-icon"></i>
+                <input type="range" id="vol-range" min="0" max="100">
+                <div class="dot" id="vol-dot"></div>
+                <div class="vol-bar"></div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
